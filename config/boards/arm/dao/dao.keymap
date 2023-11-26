@@ -9,7 +9,7 @@
 #define BLUETOOTH 4
 
 // Hyper key = holding all modifiers
-#define HYP LS(LC(LA(LMETA)))
+#define HYP LC(LA(LS(LGUI)))
 
 &lt { quick_tap_ms = <200>; };
 &mt { quick_tap_ms = <200>; };
