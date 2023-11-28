@@ -47,7 +47,7 @@
     colemak {
        bindings = <
      &sl BLUETOOTH  &none  &kp Q  &kp W       &kp F      &kp P        &kp B       &kp J      &kp L         &kp U      &kp Y       &kp SEMI  &none  &sl BLUETOOTH
-                    &none  &kp A  &mt LALT R  &mt HYP S  &mt LMETA T  &kp G       &kp M      &mt LMETA N   &mt HYP E  &mt LALT I  &kp O     &none
+                    &none  &kp A  &mt LALT R  &mt HYP S  &mt LMETA T  &kp G       &kp M      &mt LMETA N   &mt HYP E  &mt LALT I  &kp O     &kp SQT
                     &none  &kp X  &kp C       &kp D      &kp V        &kp Z       &kp K      &kp H         &kp COMMA  &kp PERIOD  &kp FSLH  &none
                                               &kp RET    &kp SPACE    &kp LSHIFT  &kp LCTRL  &kp BSPC      &to SYMBOLS
                           >;
