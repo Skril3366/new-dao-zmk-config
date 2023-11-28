@@ -1,6 +1,9 @@
 # Copyright (c) 2021 Rafael Yumagulov
 # SPDX-License-Identifier: MIT
 
+CONFIG_ZMK_KSCAN_DEBOUNCE_PRESS_MS=10
+CONFIG_ZMK_KSCAN_DEBOUNCE_RELEASE_MS=10
+
 if BOARD_DAO_LEFT
 	config ZMK_KEYBOARD_NAME
     default "Dao"
