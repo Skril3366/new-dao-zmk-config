@@ -11,7 +11,11 @@
 // Hyper key = holding all modifiers
 #define HYP LC(LA(LS(LGUI)))
 
-&mt { quick_tap_ms = <500>; };
+&mt {
+  flavor = "tap-preferred";
+  quick_tap_ms = <200>; 
+};
+
 
 / {
     chosen {
