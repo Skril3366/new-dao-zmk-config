@@ -11,8 +11,7 @@
 // Hyper key = holding all modifiers
 #define HYP LC(LA(LS(LGUI)))
 
-&lt { quick_tap_ms = <200>; };
-&mt { quick_tap_ms = <200>; };
+&mt { quick_tap_ms = <500>; };
 
 / {
     chosen {
