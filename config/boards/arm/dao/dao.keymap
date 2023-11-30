@@ -74,7 +74,7 @@
      &sl BLUETOOTH  &kp BSLH   &kp Q  &kp W       &kp E      &kp R            &kp T       &kp Y      &kp U            &kp I      &kp O       &kp P     &kp LBKT  &kp RBKT
                     &kp MINUS  &kp A  &mt LALT S  &mt HYP D  &mt LMETA F      &kp G       &kp H      &mt LMETA J      &mt HYP K  &mt LALT L  &kp SEMI  &kp SQT
                     &kp EQUAL  &kp Z  &kp X       &kp C      &kp V            &kp B       &kp N      &kp H            &kp COMMA  &kp PERIOD  &kp FSLH  &kp EXCL
-                                                  &kp RET    &mt LSHIT SPACE  &kp LSHIFT  &kp LCTRL  &mt RSHIFT BSPC  &to SYMBOLS
+                                                  &kp RET    &mt LSHIFT SPACE  &kp LSHIFT  &kp LCTRL  &mt RSHIFT BSPC  &to SYMBOLS
                         >;
         };
     bluetooth {
