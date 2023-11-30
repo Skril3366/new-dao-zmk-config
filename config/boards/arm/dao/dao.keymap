@@ -46,35 +46,35 @@
     compatible = "zmk,keymap";
     colemak {
        bindings = <
-     &sl BLUETOOTH  &none  &kp Q  &kp W       &kp F      &kp P        &kp B       &kp J      &kp L         &kp U      &kp Y       &kp SEMI  &none  &sl BLUETOOTH
-                    &none  &kp A  &mt LALT R  &mt HYP S  &mt LMETA T  &kp G       &kp M      &mt LMETA N   &mt HYP E  &mt LALT I  &kp O     &kp SQT
-                    &none  &kp X  &kp C       &kp D      &kp V        &kp Z       &kp K      &kp H         &kp COMMA  &kp PERIOD  &kp FSLH  &none
-                                              &kp RET    &kp SPACE    &kp LSHIFT  &kp LCTRL  &kp BSPC      &to SYMBOLS
+     &sl BLUETOOTH  &none  &kp Q  &kp W       &kp F      &kp P            &kp B    &kp J      &kp L            &kp U      &kp Y       &kp SEMI  &none  &sl BLUETOOTH
+                    &none  &kp A  &mt LALT R  &mt HYP S  &mt LMETA T      &kp G    &kp M      &mt LMETA N      &mt HYP E  &mt LALT I  &kp O     &kp SQT
+                    &none  &kp X  &kp C       &kp D      &kp V            &kp Z    &kp K      &kp H            &kp COMMA  &kp PERIOD  &kp FSLH  &none
+                                              &kp RET    &mt LSHIFT SPACE &kp TAB  &kp LCTRL  &mt RSHIFT BSPC  &to SYMBOLS
                           >;
                 };
     symbols {
        bindings = <
-   &sl BLUETOOTH  &kp ESC    &kp EXCL   &kp AT         &kp NUHS      &kp DLLR        &kp PRCNT     &kp CARET  &kp AMPS            &kp ASTRK      &kp LBRC      &kp RBRC  &kp CAPS  &none
-                  &kp TAB    &kp GRAVE  &mt LALT RBKT  &mt HYP LBKT  &mt LMETA LBRC  &kp RBRC      &kp PIPE   &mt LMETA KP_EQUAL  &mt HYP UNDER  &mt LALT DQT  &kp SQT   &none
-                  &kp TILDE  &none      &none          &none         &none           &none         &kp BSLH   &kp PLUS            &kp MINUS      &none         &none     &none
-                                                       &kp RET       &kp SPACE       &to COLEMAK  &kp LCTRL   &kp BSPC            &to FN_LAYER
+   &sl BLUETOOTH  &kp ESC    &kp EXCL   &kp AT         &kp NUHS      &kp DLLR          &kp PRCNT     &kp CARET  &kp AMPS            &kp ASTRK      &kp LBRC      &kp RBRC  &kp CAPS  &none
+                  &kp TAB    &kp GRAVE  &mt LALT RBKT  &mt HYP LBKT  &mt LMETA LBRC    &kp RBRC      &kp PIPE   &mt LMETA KP_EQUAL  &mt HYP UNDER  &mt LALT DQT  &kp SQT   &none
+                  &kp TILDE  &none      &none          &none         &none             &none         &kp BSLH   &kp PLUS            &kp MINUS      &none         &none     &none
+                                                       &kp RET       &mt LSHIFT SPACE  &to COLEMAK   &kp LCTRL  &mt LSHIFT BSPC     &to FN_LAYER
                         >;
         };
     numbers_and_functions {
        bindings = <
-   &sl BLUETOOTH  &none  &kp F1  &kp F2       &kp F3        &kp F4         &kp F5         &kp F6          &kp F7        &kp F8         &kp F9       &kp F10  &kp F11  &kp F12
-                  &none  &kp N1  &mt LALT N2  &mt HYP N3    &mt LMETA N4  &kp N5         &kp N6           &mt LMETA N7  &mt HYP N8     &mt LALT N9  &kp N0  &none
-                  &none  &none   &kp K_PREV   &kp K_STOP2   &kp K_NEXT     &kp C_BRI_INC  &kp C_BRI_DEC   &kp K_VOL_UP  &kp K_VOL_DN   &none        &none   &none
-                                              &kp RET       &kp SPACE      &to COLEMAK   &kp LCTRL        &kp BSPC      &to SYMBOLS
+   &sl BLUETOOTH  &none  &kp F1  &kp F2       &kp F3        &kp F4            &kp F5         &kp F6         &kp F7           &kp F8         &kp F9       &kp F10  &kp F11  &kp F12
+                  &none  &kp N1  &mt LALT N2  &mt HYP N3    &mt LMETA N4      &kp N5         &kp N6         &mt LMETA N7     &mt HYP N8     &mt LALT N9  &kp N0  &none
+                  &none  &none   &kp K_PREV   &kp K_STOP2   &kp K_NEXT        &kp C_BRI_INC  &kp C_BRI_DEC  &kp K_VOL_UP     &kp K_VOL_DN   &none        &none   &none
+                                              &kp RET       &mt LSHIFT SPACE  &to COLEMAK    &kp LCTRL      &mt LSHIFT BSPC  &to SYMBOLS
                         >;
         };
 // TODO: add quotes for russian
     qwerty {
        bindings = <
-     &sl BLUETOOTH  &kp BSLH   &kp Q  &kp W       &kp E      &kp R        &kp T       &kp Y      &kp U         &kp I      &kp O       &kp P     &kp LBKT  &kp RBKT
-                    &kp MINUS  &kp A  &mt LALT S  &mt HYP D  &mt LMETA F  &kp G       &kp H      &mt LMETA J   &mt HYP K  &mt LALT L  &kp SEMI  &kp SQT
-                    &kp EQUAL  &kp Z  &kp X       &kp C      &kp V        &kp B       &kp N      &kp H         &kp COMMA  &kp PERIOD  &kp FSLH  &kp EXCL
-                                                  &kp RET    &kp SPACE    &kp LSHIFT  &kp LCTRL  &kp BSPC      &to SYMBOLS
+     &sl BLUETOOTH  &kp BSLH   &kp Q  &kp W       &kp E      &kp R            &kp T       &kp Y      &kp U            &kp I      &kp O       &kp P     &kp LBKT  &kp RBKT
+                    &kp MINUS  &kp A  &mt LALT S  &mt HYP D  &mt LMETA F      &kp G       &kp H      &mt LMETA J      &mt HYP K  &mt LALT L  &kp SEMI  &kp SQT
+                    &kp EQUAL  &kp Z  &kp X       &kp C      &kp V            &kp B       &kp N      &kp H            &kp COMMA  &kp PERIOD  &kp FSLH  &kp EXCL
+                                                  &kp RET    &mt LSHIT SPACE  &kp LSHIFT  &kp LCTRL  &mt LSHIFT BSPC  &to SYMBOLS
                         >;
         };
     bluetooth {
