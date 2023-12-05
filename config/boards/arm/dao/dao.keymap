@@ -54,7 +54,7 @@
                 };
     symbols {
        bindings = <
-   &sl BLUETOOTH  &kp ESC    &kp EXCL   &kp AT         &kp NUHS      &kp DLLR          &kp PRCNT     &kp CARET  &kp AMPS            &kp ASTRK      &kp LBRC      &kp RBRC  &kp CAPS  &none
+   &sl BLUETOOTH  &kp ESC    &kp EXCL   &kp AT         &kp NUHS      &kp DLLR          &kp PRCNT     &kp CARET  &kp AMPS            &kp ASTRK      &kp LPAR      &kp RPAR  &kp CAPS  &none
                   &kp TAB    &kp GRAVE  &mt LALT RBKT  &mt HYP LBKT  &mt LMETA LBRC    &kp RBRC      &kp PIPE   &mt LMETA KP_EQUAL  &mt HYP UNDER  &mt LALT DQT  &kp SQT   &none
                   &kp TILDE  &none      &none          &none         &none             &none         &kp BSLH   &kp PLUS            &kp MINUS      &none         &none     &none
                                                        &kp RET       &mt LSHIFT SPACE  &to COLEMAK   &kp LCTRL  &mt RSHIFT BSPC     &to FN_LAYER
